@@ -1,0 +1,45 @@
+*{
+   margin:0;
+   padding:0; 
+}
+html{
+    font-family: sans-serif;
+    background-color: #fff;
+    padding: 4%;
+    
+}
+h1{
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 2%;
+}
+
+nav{
+    background-color: #e5e5e5;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #F9F8F9;
+}
+li{
+    
+    border-top: 2px solid #68E055;
+    padding:20px;
+    background-color: #fff;
+    
+
+}
+li a{
+    text-decoration:none; 
+    color: #7C8586;
+}
+li a, th{
+    color: #9C9C9C;
+    font-size: 10px;
+    
+}
+main{
+    margin-top: 3%;
+}
