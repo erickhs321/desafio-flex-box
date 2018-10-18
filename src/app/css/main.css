@@ -190,7 +190,7 @@ thead tr th, tbody tr td{
 tbody tr{
     border-top: 0.5px solid #f2f2f2;
     align-items: center;
-    height: 50px;
+    height: 60px;
 }
 
 table tbody, table thead{
@@ -203,8 +203,7 @@ table td:hover{
 }
 
 thead tr th:first-child, tbody tr td:first-child{
-    flex:14; 
-    
+    flex:14;    
 }
 tbody tr:first-child{
     border:0px solid #f2f2f2;
@@ -212,4 +211,11 @@ tbody tr:first-child{
 th{
     color:#908F90;
     
+}
+.circulo-numero{
+    padding: 5px;
+    width: 12px;
+    
+    border-radius: 10px;   
+    border: 2px solid #f2f2f2;
 }
