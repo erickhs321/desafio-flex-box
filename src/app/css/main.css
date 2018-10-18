@@ -1,7 +1,8 @@
 *{
    margin:0;
    padding:0; 
-   box-sizing: border-box;   
+   box-sizing: border-box; 
+   font-weight: 600;      
 }
 html{
     font-family: sans-serif;
@@ -9,6 +10,8 @@ html{
     padding: 4%;
     font-size:26px;
     color: #484848;
+    font-weight: 400; 
+    
     
 }
 .container{
@@ -20,8 +23,8 @@ html{
     background-color: #fff;    
 }
 h1{
-    font-size: 1.2rem;
-    font-weight: 600; 
+    font-size: 1.1rem;
+  
     color: #535E5F;   
           
       
@@ -44,17 +47,12 @@ ul, thead{
 }
 
 
-
-
 li{    
     border-top: 2px solid #68E055;
     padding:2% 2.3%;
     background-color: #fff;
-    width: 180px;
-    
+    width: 180px;        
 }
-
-
     
 
 li a{
@@ -64,7 +62,7 @@ li a{
 }
 li a, th{
     color: #9C9C9C;
-    font-size: 10px;
+    font-size: 0.35rem;
     
 }
 li,header{
@@ -76,7 +74,7 @@ main{
     margin-top: 3%;
 }
 h2{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
    
 }
 h3{
@@ -131,46 +129,85 @@ i{
     align-items: center;
     
 }
- table{
- 
- }
+
 input, button{
     padding: 0.8%;
     background-color: transparent;
     margin: 20px auto;
     
 }
+.busca button{
+    margin-left:-0.8%;
+}
 
-button{
-    width: 50px;
+table button{
+    border-radius:3px;
+    width: 25px;
+    height: 25px;
     background-color: #F8F8F8;
     margin-left:-0.7%;
+}
+    
+button:hover{
+    background-color: #565656;
+    color:#f2f2f2;
+    cursor:pointer;
+    
+}
+button:hover i{
+    color:#f2f2f2;
 }
 .fa-search{
     color: #6D6D6D;
     
 }
+.fa-caret-down{
+    color:#E3E3E3;
+}
 table{
     display: flex;
     flex-flow: column wrap;
+    
 }
-
 th, td{
-    padding: 1%;   
-}
+    padding: 2%;
+}   
+
 td{
-    font-size: 0.5rem;
+    font-size: 0.4rem;
 }
 thead tr, tbody tr{
     display: flex;
+    
     
 } 
 thead tr th, tbody tr td{
     flex:5;
     text-align: start;
+    
+    
 }
+tbody tr{
+    border-top: 0.5px solid #f2f2f2;
+    align-items: center;
+    height: 50px;
+}
+
+table tbody, table thead{
+    border: 0.5px solid #f2f2f2;
+}
+
+
+table td:hover{
+    color: #10D482;
+}
+
 thead tr th:first-child, tbody tr td:first-child{
     flex:14; 
+    
+}
+tbody tr:first-child{
+    border:0px solid #f2f2f2;
 }
 th{
     color:#908F90;
