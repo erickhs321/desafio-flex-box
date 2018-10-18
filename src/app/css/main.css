@@ -37,8 +37,14 @@ ul{
     list-style: none;
     display: flex;
     justify-content: flex-start;
+    
+}
+ul, thead{
     background-color: #F9F8F9;
 }
+
+
+
 
 li{    
     border-top: 2px solid #68E055;
@@ -126,7 +132,7 @@ i{
     
 }
  table{
-
+ 
  }
 input, button{
     padding: 0.8%;
@@ -142,5 +148,31 @@ button{
 }
 .fa-search{
     color: #6D6D6D;
+    
+}
+table{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+th, td{
+    padding: 1%;   
+}
+td{
+    font-size: 0.5rem;
+}
+thead tr, tbody tr{
+    display: flex;
+    
+} 
+thead tr th, tbody tr td{
+    flex:5;
+    text-align: start;
+}
+thead tr th:first-child, tbody tr td:first-child{
+    flex:14; 
+}
+th{
+    color:#908F90;
     
 }
