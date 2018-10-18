@@ -1,14 +1,14 @@
 *{
    margin:0;
    padding:0; 
-   box-sizing: border-box;
-   
+   box-sizing: border-box;   
 }
 html{
     font-family: sans-serif;
     background-color: #f5f5f5;
     padding: 4%;
     font-size:26px;
+    color: #484848;
     
 }
 .container{
@@ -17,20 +17,19 @@ html{
     border-radius: 3px; 
 }
 .container, header{
-    background-color: #fff;
-    
+    background-color: #fff;    
 }
 h1{
     font-size: 1.2rem;
-    font-weight: 600;
-    
-    color: #727B7C;   
-    
+    font-weight: 600; 
+    color: #535E5F;   
+          
       
 }
 header{
-   padding: 4% 2%;
+   padding: 3% 2%;
 }
+
 
 
 
@@ -43,8 +42,9 @@ ul{
 
 li{    
     border-top: 2px solid #68E055;
-    padding:20px;
+    padding:2% 2.3%;
     background-color: #fff;
+    width: 180px;
     
 }
 
@@ -64,22 +64,83 @@ li a, th{
 li,header{
     display: flex;
     flex-flow: column wrap;            
+    
 }
 main{
     margin-top: 3%;
 }
 h2{
-    font-size: 20px;
+    font-size: 0.8rem;
+   
 }
+h3{
+    margin-bottom: 10px;
+    text-align: left;
+}
+
 .consolidado-lojas > div{
     display: flex;
-    flex-flow: row wrap;     
+    flex-flow: row nowrap;     
     
 }
 .consolidado-lojas > div > div{
     display: flex;
-    flex-flow: column wrap;
-    padding: 20px;
-    border: 1px solid #f2f2f2;
+    flex-flow: column wrap;   
+    flex: 14%; 
+    padding: 2%;
+    
     margin: 20px 0; 
+    font-size: 0.5rem;    
+    align-items: center;
+          
+}
+
+.consolidado-lojas > div > div, input, button{
+    border: 1px solid #f2f2f2;
+}
+
+.consolidado-lojas  p, .consolidado-lojas div div div i{
+    font-size: 1.2rem;
+    
+}
+
+.consolidado-lojas div div div p{
+    font-size: 0.5rem;
+    margin-left: 6px;
+    text-align: left;
+
+}
+i{
+    color: #FDF07E;
+}
+.container-valor-avaliacao{
+    display: flex;    
+    align-items: center;
+    margin: 0;
+    justify-content: flex-start;
+    
+}
+.container-valor-avaliacao div{
+    display: flex;
+    align-items: center;
+    
+}
+ table{
+
+ }
+input, button{
+    padding: 0.8%;
+    background-color: transparent;
+    margin: 20px auto;
+    
+}
+
+button{
+    width: 50px;
+    background-color: #F8F8F8;
+    margin-left:-0.7%;
+}
+.fa-search{
+    color: #6D6D6D;
+    
 }
