@@ -169,7 +169,7 @@ table{
     flex-flow: column wrap;
     
 }
-th, td{
+td{
     padding: 2%;
 }   
 
@@ -197,8 +197,7 @@ table tbody, table thead{
     border: 0.5px solid #f2f2f2;
 }
 
-
-table td:hover{
+table .nome-loja:hover{
     color: #10D482;
 }
 
@@ -210,12 +209,21 @@ tbody tr:first-child{
 }
 th{
     color:#908F90;
+    padding: 2%; 
+    
+    font-size: 0.36rem;
+    
     
 }
+th, td{
+    padding-right: 1.8%; 
+}
 .circulo-numero{
-    padding: 5px;
-    width: 12px;
+    padding: 2% 4%;
     
-    border-radius: 10px;   
+    
+    margin-left: -2%;
+    margin-right: 3%;
+    border-radius: 100%;   
     border: 2px solid #f2f2f2;
 }
