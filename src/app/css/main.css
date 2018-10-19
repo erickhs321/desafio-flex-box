@@ -1,45 +1,223 @@
-*{
-   margin:0;
-   padding:0; 
-}
-html{
-    font-family: sans-serif;
-    background-color: #fff;
-    padding: 4%;
-    
-}
-h1{
-    font-size: 22px;
-    font-weight: 400;
-    margin-bottom: 2%;
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-weight: 600;    
 }
 
-nav{
-    background-color: #e5e5e5;
+html {
+	font-family: sans-serif;
+	background-color: #f5f5f5;
+	padding: 4%;
+	font-size:26px;
+	color: #484848;
+	font-weight: 400;
 }
-ul{
-    list-style: none;
+
+.container {
+	padding: 2%;
+	border-radius: 3px;
+}
+
+.container, header {
+  background-color: #fff;
+}
+
+h1 {
+	font-size: 1.1rem;
+	color: #535E5F;
+}
+
+header {
+  padding: 3% 2%;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	justify-content: flex-start;
+}
+
+ul, thead {
+  background-color: #F9F8F9;
+}
+
+li {    
+	border-top: 2px solid #68E055;
+	padding:2% 2.3%;
+	background-color: #fff;
+	width: 180px;
+}
+
+li a {
+	text-decoration:none;
+	color: #7C8586;
+}
+
+li a, th {
+	color: #9C9C9C;
+	font-size: 0.35rem;
+}
+
+li,header {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+main {
+  margin-top: 3%;
+}
+
+h2 {
+  font-size: 0.7rem; 
+}
+
+h3 {
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+.consolidado-lojas > div {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.consolidado-lojas > div > div {
     display: flex;
-    justify-content: flex-start;
-    background-color: #F9F8F9;
+    flex-flow: column wrap;
+    flex: 14%;
+    padding: 2%;
+    
+    margin: 20px 0;
+    font-size: 0.5rem;
+    align-items: center;
 }
-li{
-    
-    border-top: 2px solid #68E055;
-    padding:20px;
-    background-color: #fff;
-    
 
+.consolidado-lojas > div > div, input, button {
+  border: 1px solid #f2f2f2;
 }
-li a{
-    text-decoration:none; 
-    color: #7C8586;
+
+.consolidado-lojas  p, .consolidado-lojas div div div i {
+  font-size: 1.2rem;  
 }
-li a, th{
-    color: #9C9C9C;
-    font-size: 10px;
+
+.consolidado-lojas div div div p {
+	font-size: 0.5rem;
+	margin-left: 6px;
+	text-align: left;
+}
+
+i {
+  color: #FDF07E;
+}
+
+.container-valor-avaliacao {
+	display: flex;
+	align-items: center;
+	margin: 0;
+	justify-content: flex-start;
+}
+
+.container-valor-avaliacao div {
+	display: flex;
+	align-items: center;
+}
+
+input, button {
+	padding: 0.8%;
+	background-color: transparent;
+	margin: 20px auto;
+}
+
+.busca button {
+  margin-left:-0.8%;
+}
+
+table button {
+	border-radius:3px;
+	width: 25px;
+	height: 25px;
+	background-color: #F8F8F8;
+	margin-left:-0.7%;
+}
     
+button:hover {
+	background-color: #565656;
+	color:#f2f2f2;
+	cursor:pointer;
 }
-main{
-    margin-top: 3%;
+
+button:hover i {
+  color:#f2f2f2;
+}
+
+.fa-search {
+  color: #6D6D6D;
+}
+
+.fa-caret-down {
+  color:#E3E3E3;
+}
+
+table {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+td {
+  padding: 2%;
+} 
+
+td {
+  font-size: 0.4rem;
+}
+
+thead tr, tbody tr {
+  display: flex;
+}
+
+thead tr th, tbody tr td {
+	flex:5;
+	text-align: start;
+}
+
+tbody tr {
+	border-top: 0.5px solid #f2f2f2;
+	align-items: center;
+	height: 60px;
+}
+
+table tbody, table thead {
+  border: 0.5px solid #f2f2f2;
+}
+
+table .nome-loja:hover {
+  color: #10D482;
+}
+
+thead tr th:first-child, tbody tr td:first-child {
+  flex:14;
+}
+
+tbody tr:first-child {
+  border:0px solid #f2f2f2;
+}
+
+th {
+	color:#908F90;
+	padding: 2%; 
+
+	font-size: 0.36rem;
+}
+
+th, td {
+  padding-right: 1.8%;
+}
+
+.circulo-numero {
+	padding: 2% 4%;
+	margin-left: -2%;
+	margin-right: 3%;
+	border-radius: 100%;
+	border: 2px solid #f2f2f2;
 }
